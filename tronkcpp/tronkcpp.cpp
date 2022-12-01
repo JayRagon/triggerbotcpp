@@ -57,7 +57,6 @@ int main()
                 if (rgbs[0] > (rgbc[0] + threshold) || rgbs[0] < (rgbc[0] - threshold) || rgbs[1] > (rgbc[1] + threshold) || rgbs[1] < (rgbc[1] - threshold) || rgbs[2] > (rgbc[2] + threshold) || rgbs[2] < (rgbc[2] - threshold))
                 {
                     click(inputs);
-                    std::cout << "yoo we did it";
                 }
             }
         }
